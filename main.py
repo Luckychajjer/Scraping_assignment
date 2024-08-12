@@ -55,3 +55,4 @@ for reraid in output.keys(): # clean the data
 
 df = pd.DataFrame.from_dict(output, orient='index') #using pandas to convert the data and save to excel
 df.to_excel('data.xlsx', engine='openpyxl')
+print('data saved in data.xlsx')
